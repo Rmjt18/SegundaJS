@@ -55,7 +55,7 @@ const pizzas = [
 
 
 const pizzasidimpar = pizzas.filter(({id}) =>  id %2 ===1)
-console.log (pizzasidimpar)
+console.log (`Las pizzas con ID impar son : ${JSON.stringify(pizzasidimpar)}`)
 
 
 
