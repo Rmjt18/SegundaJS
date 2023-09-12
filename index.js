@@ -54,9 +54,8 @@ const pizzas = [
 // a)  Las pizzas que tengan un id impar.
 
 
-const pizzasIdImpar = pizzas.filter((id)=> id %2 === 0 )
-
-console.log (`Las Pizzas con ID impar son ${pizzasIdImpar}`)
+const pizzasidimpar = pizzas.filter(({id}) =>  id %2 ===1)
+console.log (pizzasidimpar)
 
 
 
